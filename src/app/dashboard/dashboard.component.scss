@@ -16,23 +16,24 @@ h2 {
 
 a {
   background-color: #3f525c;
-  border-radius: 2px;
+  border-radius: 4px;
   padding: 1rem;
   font-size: 1.2rem;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: #eeeeee;
   text-align: center;
   width: 100%;
-  min-width: 70px;
+  min-width: 120px;
+  max-height: 120px;
   margin: 0.5rem auto;
-  box-sizing: border-box;
   order: 0;
   flex: 0 1 auto;
   align-self: auto;
 
   &:hover {
-    background-color: #000;
+    background-color: #eeeeee;
+    color: #3f525c;
   }
 }
 

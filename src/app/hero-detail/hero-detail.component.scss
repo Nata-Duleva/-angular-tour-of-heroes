@@ -5,23 +5,30 @@ label {
 
 input {
   font-size: 1em;
-  padding: .5rem;
+  padding: 0.5rem;
+
+  &:focus {
+    outline: #336699 auto 1px;
+  }
 }
 
 button {
   margin-top: 20px;
-  background-color: #eee;
-  padding: 1rem;
+  margin-right: 10px;
+  background-color: #eeeeee;
+  padding: 0.5rem;
   border-radius: 4px;
   font-size: 1rem;
 
   &:hover {
-    background-color: #cfd8dc;
+    background-color: #42545c;
+    color: #eeeeee;
   }
 
   &:disabled {
-    background-color: #eee;
-    color: #ccc;
+    background-color: #eeeeee;
+    //color: #cccccc;
+    color: red;
     cursor: auto;
   }
 }
